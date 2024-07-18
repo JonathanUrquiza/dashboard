@@ -1,0 +1,26 @@
+@import url('./global.css');
+
+.dashboard {
+    
+    font-family: var(--font-base);
+}
+.pagos {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.stats {   
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.recientes-table {
+    width: 100%;
+    padding: 4px;
+    margin: 1px;
+    text-align: center;
+    
+}   
+    

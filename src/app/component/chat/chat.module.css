@@ -1,0 +1,97 @@
+.component{
+    height: 100%;
+    background-color: var(--color-fondo);
+    border-radius: 5px;
+    border: 1px rgba(149, 146, 146, 0.5) solid;
+    box-shadow: 0px 0px 10px darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: start;
+    z-index: 3;
+}
+
+.chart {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    text-align: start;
+}
+.messageTitle{
+    width: 100%;
+}
+.buzon{
+    width: 100%;
+}
+.buzonMessage {
+    border-bottom: 1px solid rgb(133, 127, 127);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.message {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    padding: 5px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.message:hover {
+    background-color: #bdbcbc;
+     border-radius: 5px;
+     padding: 5px;
+}
+.messageAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.messageStyle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5px;
+    text-overflow: ellipsis;
+}
+.messageBody {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.messageText{
+    color: var(--color1);
+    text-overflow: ellipsis;
+    margin: 2px 2px;
+}
+.dateStyle{
+    display:flex; 
+    flex-direction: column; 
+    align-items:center; 
+    height:100%;
+}
+.messageNotification{
+
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid darkslategray;
+    background-color: darkslategray ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
