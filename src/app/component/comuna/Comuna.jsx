@@ -1,14 +1,20 @@
-import './comuna.css'
+import {component, 
+  text, 
+  comunas, 
+  comunasMap, 
+  comunasList,
+  barriosList
+} from './comuna.module.css'
 import Image from 'next/image'
 import map from '@/../public/icons/mapabsas.png'
 
 export default function Comunas() {
     return (
-      <div className="component">
+      <div className={component}>
         <p className="text-center mt-4">Valores por comuna (ARS): Alquileres Definitivos</p>
-        <div className="comunas">
+        <div className={comunas}>
           
-          <div className="comunas-map m-4">
+          <div className={comunasMap}>
             <Image src={map} alt="Mapa de las comunas que marca los alquileres definitivos"></Image>
           </div>
           
@@ -16,8 +22,8 @@ export default function Comunas() {
             {/* Contenido dinámico que se carga segun se selecciona la comuna */}
             <p className="text-center">Comuna 1</p>
             {/* Puede ser una tabla o dos listas */}
-            <div className="comunas-list">
-              <ul className="list-unstyled text-dark mx-1">
+            <div className={comunasList}>
+              <ul className={barriosList}>
                 <li>Barrio</li>
                 <li>Retiro</li>
                 <li>San Telmo</li>
@@ -26,7 +32,7 @@ export default function Comunas() {
                 <li>San Nicolas</li>
                 <li>Monserrat</li>
               </ul>
-              <ul className="list-unstyled text-dark mx-1">
+              <ul className={barriosList}>
                 <li>Precio</li>
                 <li>360 K</li>
                 <li>330 K</li>

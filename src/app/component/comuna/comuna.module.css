@@ -21,20 +21,20 @@
     align-items: center;
     justify-content: space-around;
 }
-.comunas-map {
+.comunasMap {
     width: 360px;
     height: 360px;
     margin: 4%;
 }
-.comunas-list {
+.comunasList {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-around;
     padding-right: 4px;
 }
-/* .barriosList {
+.barriosList {
     list-style: none;
     color: black;
     margin: 10px 0;
-} */
+}

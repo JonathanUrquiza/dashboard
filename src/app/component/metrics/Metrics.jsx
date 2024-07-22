@@ -1,11 +1,10 @@
 import Style from './metrics.module.css'
-
 export default function Metrics() {
   return (
 
     <div className={Style.component}>
-      <p className="mt-1 text-center">Total Propiedades Listadas</p>
       {/* Ingresar una tabla */}
+      <p className="mt-1 text-center">Total Propiedades Listadas</p>
 
       <div className={Style.cardComponent}>
 
@@ -29,3 +28,4 @@ export default function Metrics() {
 
   )
 }
+/* Este componente como ingresos.jsx, Transacciones.jsx y usuarios.jsx deberan ser un componente solo */

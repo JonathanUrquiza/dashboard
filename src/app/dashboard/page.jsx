@@ -1,4 +1,5 @@
-import '../dashboard.css'
+'use client'
+import '@/app/dashboard/dashboard.css'
 import Metrics from '../component/metrics/Metrics';
 import Chat from '../component/chat/Chat';
 import Zona from '../component/zona/Zona';
