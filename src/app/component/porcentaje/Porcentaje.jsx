@@ -2,7 +2,7 @@
 import React from 'react'
 import Style from './porce.module.css'
 import Image from 'next/image'
-import graph2 from '@/../public/icons/Group24.png'
+import graph2 from '../../../assets/icons/Group24.png'
 
 export default function Porcentaje() {
     return (

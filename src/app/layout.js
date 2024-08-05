@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import { Inter, Roboto, Nunito } from "next/font/google";
+import '@tremor/react'
 export const metadata = {
   charset: "utf-8",
   title: 'My Next.js',

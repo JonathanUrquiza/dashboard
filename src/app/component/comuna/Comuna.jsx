@@ -6,7 +6,7 @@ import {component,
   barriosList
 } from './comuna.module.css'
 import Image from 'next/image'
-import map from '@/../public/icons/mapabsas.png'
+import map from '../../../assets/icons/mapabsas.png'
 
 export default function Comunas() {
     return (

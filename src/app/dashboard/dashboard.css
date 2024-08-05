@@ -3,6 +3,7 @@
 .dashboard {
     
     font-family: var(--font-base);
+    gap: 8px;
 }
 .pagos {
     display: flex;

@@ -1,10 +1,10 @@
 'use client'
 import Link from "next/link"
 import Image from "next/image"
-import visa from '@/../public/icons/visa.png'
-import bancaria from '@/../public/icons/bancaria.png'
-import paypal from '@/../public/icons/paypal.png'
-import efectivo from '@/../public/icons/efectivo.png'
+import visa from '../../../assets/icons/visa.png'
+import bancaria from '../../../assets/icons/bancaria.png'
+import paypal from '../../../assets/icons/paypal.png'
+import efectivo from '../../../assets/icons/efectivo.png'
 import Style from './pagos.module.css'
 
 

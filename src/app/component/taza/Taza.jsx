@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Style from './taza.module.css'
-import graph from '@/../public/icons/grafica.png'
+import graph from '../../../assets/icons/grafica.png'
 
 
 export default function Taza() {

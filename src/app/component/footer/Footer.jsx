@@ -4,10 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import './footer.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import logo from '@/assets/logoPropify.svg'
-import redx from '@/assets/iconoX.png'
-import facebook from '@/assets/facebook.png'
-import instagram from '@/assets/instagram.png'
+import logo from '../../../assets/logoPropify.svg'
+import redx from '../../../assets/iconoX.png'
+import facebook from '../../../assets/facebook.png'
+import instagram from '../../../assets/instagram.png'
 
 export default function Footer() {
     return (

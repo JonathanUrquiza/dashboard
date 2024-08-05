@@ -1,4 +1,5 @@
-import {component,
+import {
+  component,
   buzon,
   chart,
   buzonMessage,
@@ -11,7 +12,7 @@ import {component,
   messageTitle,
   messageText
 } from './chat.module.css'
-import group from '@/../public/icons/icon-group.png'
+import group from '../../../assets/icons/icon-group.png'
 import Image from 'next/image'
 
 export default function Chat() {
